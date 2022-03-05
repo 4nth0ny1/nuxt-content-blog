@@ -27,18 +27,17 @@
   export default {
 
     async asyncData({ $content, params }) {
-    const article = await $content('articles', params.slug).fetch()
-
-    return { article }
+      const article = await $content('articles', params.slug).fetch()
+      return { article }
     },
     methods: {
-    formatDate(date) {
-    const options = { year: 'numeric', month: 'long', day: 'numeric' }
-    return new Date(date).toLocaleDateString('en', options)
+      formatDate(date) {
+        const options = { year: 'numeric', month: 'long', day: 'numeric' }
+        return new Date(date).toLocaleDateString('en', options)
         }
     }, 
     async asyncData({ $content, params }) {
-    const article = await $content('articles', params.slug).fetch()
+      const article = await $content('articles', params.slug).fetch()
 
     const [prev, next] = await $content('articles')
       .only(['title', 'slug'])

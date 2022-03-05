@@ -30,6 +30,8 @@ export default {
   .nav-li {
     color: black;
     text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
 

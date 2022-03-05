@@ -1,6 +1,8 @@
 <template>
 <header>
-  <h1>home</h1>
+  <div class="home-container">
+    <h1>home</h1>
+  </div>
 </header>
 </template> 
 
@@ -11,5 +13,13 @@ export default {
 </script>
 
 <style>
+  .home-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
 
+  .home-container h1 {
+    text-align: center;
+    margin-top: 10px;
+  }
 </style>

@@ -67,6 +67,7 @@
     margin-bottom: 20px;
   }
 
+
   /* .icon.icon-link {
     background-image: url('~assets/svg/icon-hashtag.svg');
     display: inline-block;

@@ -1,6 +1,6 @@
 <template>
 <header>
-  <h1>home page</h1>
+  <h1>home</h1>
 </header>
 </template> 
 

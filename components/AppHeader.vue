@@ -7,6 +7,8 @@
       <NuxtLink class="nav-li" to="/">home</NuxtLink>
       <NuxtLink class="nav-li" to="/about">about</NuxtLink>
       <NuxtLink class="nav-li" to="/blog">blog</NuxtLink>
+      <NuxtLink class="nav-li" to="/cards">cards</NuxtLink>
+      <NuxtLink class="nav-li" to="/people">people</NuxtLink>
     </div>
   </header>
 </template>

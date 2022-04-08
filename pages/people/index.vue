@@ -3,7 +3,7 @@
     <h1>people</h1>
     <ul>
       <li v-for="person of people" :key="person.slug">
-       <NuxtLink class="person-style" :to="{ name: 'person-slug', params: { slug: person.slug } }">          
+       <NuxtLink :to="{ name: 'person-slug', params: { slug: person.slug } }">          
          <div>
               <h2>{{ person.name }}</h2>
               <p>{{ person.occupation }}</p>

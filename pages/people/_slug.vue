@@ -16,6 +16,12 @@ export default {
     },
     async asyncData({ $content, params }) {
       const person = await $content('people', params.slug).fetch()
+    
+        // await $content('people')
+        // .only(['name', 'slug'])
+        // .surround(params.slug)
+        // .fetch()
+
         return {
             person
         }

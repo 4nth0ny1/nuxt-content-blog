@@ -22,9 +22,9 @@ export default {
         // .surround(params.slug)
         // .fetch()
 
-        return {
-            person
-        }
+    return {
+        person
+    }
     }
 }
 </script>
